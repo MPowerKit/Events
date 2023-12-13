@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>MPowerKit.Events</Title>
+		<Version>1.0.0</Version>
+		<Authors>MPowerKit</Authors>
+		<Description>Facilitates communication between loosely coupled components in an application.</Description>
+		<Copyright>MPowerKit</Copyright>
+		<PackageProjectUrl>https://github.com/MPowerKit/Events</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/MPowerKit/Events</RepositoryUrl>
+		<PackageTags>maui;mvvm;prism;lightmvvm;event;eventaggregator;global events</PackageTags>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\readme.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

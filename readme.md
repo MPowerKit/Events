@@ -1,0 +1,1 @@
+Facilitates communication between loosely coupled components in an application.
