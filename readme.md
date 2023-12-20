@@ -6,7 +6,7 @@ This library gives you an ability to facilitate communication between loosely co
 
 Inspired by [Prism](https://prismlibrary.com/docs/event-aggregator.html)'s EventAggregator.
 
-Note: Main difference from Prism is that this library does not support different threads publishing/handling. The event will be handled in that thread it was raised in. Also, code was refactored to use latest .net and c# features.
+Note: Main difference from Prism is that this library does not support different threads event publishing/handling. The event will be handled in that thread it was raised in. Also, code was refactored to use latest .net and c# features.
 
 ### Usage
 
