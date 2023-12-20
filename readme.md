@@ -57,3 +57,5 @@ _eventAggregator.GetEvent<SomeEvent>().Publish();
 
 _eventAggregator.GetEvent<SomeGenericEvent>().Publish(payload);
 ```
+
+Note: you may not unsubscribe from events, because it has weak reference, but better to do unsubscribe
