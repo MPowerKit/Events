@@ -7,7 +7,7 @@
 
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>MPowerKit.Events</Title>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>MPowerKit,Alex Dobrynin</Authors>
 		<Description>Facilitates communication between loosely coupled components in an application.</Description>
 		<Copyright>MPowerKit</Copyright>
