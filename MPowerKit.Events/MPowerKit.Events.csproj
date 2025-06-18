@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>MPowerKit.Events</Title>
-		<Version>1.0.2</Version>
+		<Version>1.1.1</Version>
 		<Authors>MPowerKit,Alex Dobrynin</Authors>
 		<Description>Facilitates communication between loosely coupled components in an application.</Description>
 		<Copyright>MPowerKit</Copyright>

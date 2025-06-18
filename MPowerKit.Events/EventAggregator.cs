@@ -31,13 +31,13 @@ public class EventAggregator : IEventAggregator
     /// </summary>
     /// <typeparam name="TEventType">The type of event to get. This must inherit from <see cref="EventBase"/>.</typeparam>
     /// <returns>A singleton instance of an event object of type <typeparamref name="TEventType"/>.</returns>
-    public TEventType GetEvent<TEventType>() where TEventType : EventBase, new()
+    public TEventType GetEvent<TEventType>() where TEventType : EventBase
     {
         lock (_events)
         {
             if (!_events.TryGetValue(typeof(TEventType), out EventBase? existingEvent))
             {
-                TEventType newEvent = new();
+                TEventType newEvent = Activator.CreateInstance<TEventType>();
 
                 _events[typeof(TEventType)] = newEvent;
 
