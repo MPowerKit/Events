@@ -9,7 +9,7 @@ public interface IEventSubscription
     /// Gets or sets a <see cref="SubscriptionToken"/> that identifies this <see cref="IEventSubscription"/>.
     /// </summary>
     /// <value>A token that identifies this <see cref="IEventSubscription"/>.</value>
-    SubscriptionToken SubscriptionToken { get; set; }
+    SubscriptionToken? SubscriptionToken { get; set; }
 
     /// <summary>
     /// Gets the execution strategy to publish this event.

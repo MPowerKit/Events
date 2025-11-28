@@ -39,7 +39,7 @@ public class EventSubscription : IEventSubscription
     /// Gets or sets a <see cref="SubscriptionToken"/> that identifies this <see cref="IEventSubscription"/>.
     /// </summary>
     /// <value>A token that identifies this <see cref="IEventSubscription"/>.</value>
-    public SubscriptionToken SubscriptionToken { get; set; }
+    public SubscriptionToken? SubscriptionToken { get; set; }
 
     /// <summary>
     /// Gets the execution strategy to publish this event.
@@ -134,7 +134,7 @@ public class EventSubscription<TPayload> : IEventSubscription
     /// Gets or sets a <see cref="SubscriptionToken"/> that identifies this <see cref="IEventSubscription"/>.
     /// </summary>
     /// <value>A token that identifies this <see cref="IEventSubscription"/>.</value>
-    public SubscriptionToken SubscriptionToken { get; set; }
+    public SubscriptionToken? SubscriptionToken { get; set; }
 
     /// <summary>
     /// Gets the execution strategy to publish this event.
